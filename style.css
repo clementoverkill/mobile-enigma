@@ -1,0 +1,182 @@
+.a {
+    text-align: center;
+    text-emphasis-color: black;
+    display: block;
+}
+
+.iphones {
+    width:50%;
+    height: 50%;
+    padding-right: 100px;
+    display: flex;
+
+}
+.about {
+    width:max-content;
+    height: fit-content;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    display: block;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  .horizontal-list {
+    list-style: none;
+    padding: 0;
+}
+
+    
+
+.image-container {
+    text-align: center; /* To center the images horizontally (optional) */
+}
+
+.image-container img {
+    display: inline-block;
+    margin-right: 10px; /* Add space between images */
+}
+.horizontal-list {
+    list-style: none;
+    padding: 0;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin-right: 10px; /* Add space between list items */
+}
+
+.horizontal-list img {
+    max-width: 100%; /* Ensure the images fit the container width */
+}
+.navigation {
+    background-color: rgba(22, 22, 23, .8);
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: start;
+}
+
+/* Style the navigation menu */
+.navigation {
+    background-color: #1f1d1d;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+}
+
+/* Remove 
+
+/* Style links within list items */
+ li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Style links on hover */
+ li a:hover {
+    text-decoration: underline;
+}
+image {
+    padding-right: 100px;
+}
+.Phones {
+    background-color: rgba(9, 9, 6, 0.922);
+}
+
+.Phones ul.horizontal-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Distribute items evenly within the section */
+    background-color: #f0f0f0; /* Gray background */
+}
+
+.Phones li {
+    text-align: center; /* Center-align the contents of each list item */
+    padding: 20px; /* Add space around each item */
+}
+
+.Phones h1 {
+    margin: 10px 0; /* Add space above and below the h1 text */
+}
+
+
+.Phones ul.first {
+    list-style: none;
+    padding: 0;
+}
+
+.Phones li {
+    text-align: center; /* Center-align the contents of each list item */
+}
+
+.Phones h1 {
+    margin: 10px 0; /* Add space above and below the h1 text */
+}
+
+.Phones img {
+    display: block; /* To remove any default inline spacing */
+    margin: 0 auto; /* Center the image horizontally */  
+    width: 700px; /* Set the width to your desired size */
+    height: auto; 
+
+    
+}
+
+.footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    
+}
+/* Default styles that apply to all screen sizes */
+
+/* Mobile screens */
+@media (max-width: 767px) {
+    .image-slider img {
+        max-width: 100%;
+    }
+    .horizontal-list {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .horizontal-list li {
+        margin: 10px 0;
+    }
+}
+
+/* Tablet and larger screens */
+@media (min-width: 768px) {
+    .image-slider img {
+        max-width: 100%;
+    }
+    .horizontal-list {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .horizontal-list li {
+        margin: 0 10px;
+    }
+}
+
+/* Desktop screens */
+@media (min-width: 1024px) {
+    /* Additional styles for larger screens */
+}
+
+
+
+
+
